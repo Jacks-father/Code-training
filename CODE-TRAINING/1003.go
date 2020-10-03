@@ -58,8 +58,16 @@ func main() {
 	num00 := "saddadaasdad"
 	name := "小明不叫晓明"//一个汉字相当于三个字母
 	length := len(name)
-	fmt.Println("num00的长度是：",len(num00))
-	fmt.Println("字符串name的长度是：",length)
+	fmt.Println("num00的长度是：",len(num00))//输出打印num00的字符长度
+	fmt.Println("字符串name的长度是：",length)//输出打印name转换为的length字符的长度
+
+
+
+	sex01 := "bunanbunv,kegongkeshou"
+	bunanbunv := sex01[0:9]//下标从0开始到第8，一共9个字母
+	fmt.Println(bunanbunv)
+	xilihualade := sex01[10:len(sex01)]
+	fmt.Println(xilihualade)
 }
 func hello()  {
 	fmt.Println(num)
